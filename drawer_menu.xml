@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/group_emergency"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_my_reports"
+            android:icon="@drawable/ic_reports"
+            android:title="@string/menu_my_reports" />
+    </group>
+
+    <item android:title="@string/menu_header_volunteer_support">
+        <menu>
+            <item
+                android:id="@+id/nav_volunteer_alerts"
+                android:icon="@drawable/ic_alerts"
+                android:title="@string/menu_volunteer_alerts" />
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_header_safety">
+        <menu>
+            <item
+                android:id="@+id/nav_safety_features"
+                android:icon="@drawable/ic_safety"
+                android:title="@string/menu_safety_features" />
+            <item
+                android:id="@+id/nav_help_support"
+                android:icon="@drawable/ic_help"
+                android:title="@string/menu_help_support" />
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_header_account">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_profile"
+                android:title="@string/menu_profile" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/menu_logout" />
+        </menu>
+    </item>
+</menu>
